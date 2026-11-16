@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "family": "AUTOGAUGE4IN1",
+  "version": "1.0.0",
+  "chip": "ESP32-S3",
+  "public": true,
+  "flashSize": "16MB",
+  "variants": [
+    {
+      "key": "C1",
+      "itemNos": [],
+      "displayName": {
+        "zh": "COMBO 1 渦輪／水溫／油壓／電壓",
+        "en": "COMBO 1 TURBO/WATER/OIL/VOLTS"
+      },
+      "appProjectName": "VTX-AG4IN1-C1",
+      "full": {
+        "file": "C1/full.bin",
+        "offset": 0,
+        "sha256": "74c009b2838fa7b181943ba11ecc09a1a308dc7130c89cc9300feaaa160b3c55"
+      },
+      "app": {
+        "file": "C1/app.bin",
+        "offset": 65536,
+        "sha256": "0f5711c7654c7d6e3825ef80dca039da769463a21a399838684d16ece7e12dfd"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "e5a779ca692fe36f199ddba0a65e417d3693000e64b06b7b9155782fd685daf4"
+        ],
+        "appPartitionMinSize": 1835008
+      }
+    },
+    {
+      "key": "C1CARBON",
+      "itemNos": [],
+      "displayName": {
+        "zh": "COMBO 1 碳纖版 渦輪／水溫／油壓／電壓",
+        "en": "COMBO 1 CARBON TURBO/WATER/OIL/VOLTS"
+      },
+      "appProjectName": "VTX-AG4IN1-C1CARBON",
+      "full": {
+        "file": "C1CARBON/full.bin",
+        "offset": 0,
+        "sha256": "3d7e6aad20d73c65b3330cb329d9630165465dfc28b843c348bd0739013ca854"
+      },
+      "app": {
+        "file": "C1CARBON/app.bin",
+        "offset": 65536,
+        "sha256": "3215ff3dc93f6e10e5e58f6541d5803d9bdd461beacd9dd0743ce0b004ab0812"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "e5a779ca692fe36f199ddba0a65e417d3693000e64b06b7b9155782fd685daf4"
+        ],
+        "appPartitionMinSize": 1835008
+      }
+    },
+    {
+      "key": "C2",
+      "itemNos": [],
+      "displayName": {
+        "zh": "COMBO 2 渦輪／溫度／油壓／排溫",
+        "en": "COMBO 2 TURBO/TEMP/OIL/EGT"
+      },
+      "appProjectName": "VTX-AG4IN1-C2",
+      "full": {
+        "file": "C2/full.bin",
+        "offset": 0,
+        "sha256": "d8acdfa00f22fb29fd7aa72b62ffeb2007ead2449552d9665015153247ac4ebf"
+      },
+      "app": {
+        "file": "C2/app.bin",
+        "offset": 65536,
+        "sha256": "c1bc344117be3e098cd2fa15b5cfb5dafac9633e211cef4590a2c7096ef46f78"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "e5a779ca692fe36f199ddba0a65e417d3693000e64b06b7b9155782fd685daf4"
+        ],
+        "appPartitionMinSize": 1835008
+      }
+    },
+    {
+      "key": "C3",
+      "itemNos": [],
+      "displayName": {
+        "zh": "COMBO 3 電壓／溫度／油壓／排溫",
+        "en": "COMBO 3 VOLTS/TEMP/OIL/EGT"
+      },
+      "appProjectName": "VTX-AG4IN1-C3",
+      "full": {
+        "file": "C3/full.bin",
+        "offset": 0,
+        "sha256": "492d279ea858ef1783ef841961560321b6af27db426b2a46a0c9f0443c06668a"
+      },
+      "app": {
+        "file": "C3/app.bin",
+        "offset": 65536,
+        "sha256": "c91598c2d503d48fde3ff95e4f916ee3461e2763cc7c767ae9046bb75f30411e"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "e5a779ca692fe36f199ddba0a65e417d3693000e64b06b7b9155782fd685daf4"
+        ],
+        "appPartitionMinSize": 1835008
+      }
+    },
+    {
+      "key": "C4",
+      "itemNos": [],
+      "displayName": {
+        "zh": "COMBO 4 水溫／油溫／油壓／電壓",
+        "en": "COMBO 4 WATER/OIL TEMP/OIL/VOLTS"
+      },
+      "appProjectName": "VTX-AG4IN1-C4",
+      "full": {
+        "file": "C4/full.bin",
+        "offset": 0,
+        "sha256": "4642f4971c49d3fd211cb5b379389de3f13b2d98beb6355c70e9948fc01111ab"
+      },
+      "app": {
+        "file": "C4/app.bin",
+        "offset": 65536,
+        "sha256": "02352b46e3b4a083a401d2ec6fc800b5005c9520745abd260af873ed8928a4f6"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "e5a779ca692fe36f199ddba0a65e417d3693000e64b06b7b9155782fd685daf4"
+        ],
+        "appPartitionMinSize": 1835008
+      }
+    }
+  ],
+  "legacyProjectNames": [
+    "ESP32-S3-Touch-LCD-1.85-Test"
+  ],
+  "sourceCommit": "62e60e1",
+  "releaseNotes": {
+    "zh": [
+      "每一種錶面組合都有自己的固件名稱（VTX-AG4IN1-C1～C4、碳纖版 C1CARBON），而且帶有版本號。之後更新頁面會依照這個名稱，自動找出你這台儀表的固件。",
+      "移除了沒有用到的語音辨識元件，固件變小，功能不受影響。",
+      "只更新程式（app）時，主題、單位、警示門檻等設定都會保留。"
+    ],
+    "en": [
+      "Each gauge combo now has its own firmware name (VTX-AG4IN1-C1 to C4, carbon C1CARBON) and a version number, so the update page can pick the right firmware for your gauge automatically.",
+      "Removed the unused speech-recognition component; the firmware is smaller and nothing you use has changed.",
+      "An app-only update keeps your settings (theme, units, warning thresholds)."
+    ]
+  }
+}
