@@ -1,0 +1,11 @@
+{
+  "name": "VAITRIX",
+  "domain": "update.vaitrix.tw",
+  "logo": "brand/logo.png",
+  "favicon": "brand/favicon.png",
+  "contact": {
+    "email": "taiwan@vaitrix.com",
+    "phone": "04-7720200",
+    "phoneEn": "+886 4 772 0200"
+  }
+}
