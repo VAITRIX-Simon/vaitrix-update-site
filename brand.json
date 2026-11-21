@@ -7,5 +7,28 @@
     "email": "taiwan@vaitrix.com",
     "phone": "04-7720200",
     "phoneEn": "+886 4 772 0200"
+  },
+  "products": {
+    "AUTOGAUGE4IN1": {
+      "noun": {
+        "zh": "錶",
+        "en": "gauge"
+      },
+      "image": "builtin:round-gauge"
+    },
+    "VTXGEN3": {
+      "noun": {
+        "zh": "錶",
+        "en": "gauge"
+      },
+      "image": "builtin:round-gauge"
+    },
+    "VTXCPM": {
+      "noun": {
+        "zh": "控制器",
+        "en": "controller"
+      },
+      "image": "builtin:round-gauge"
+    }
   }
 }

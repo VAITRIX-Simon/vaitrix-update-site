@@ -1,5 +1,7 @@
 {
   "manifests": [
-    "products/AUTOGAUGE4IN1/1.0.0/manifest.json"
+    "products/AUTOGAUGE4IN1/1.0.0/manifest.json",
+    "products/VTXCPM/1.0.0/manifest.json",
+    "products/VTXGEN3/1.0.0/manifest.json"
   ]
 }

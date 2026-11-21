@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "family": "VTXGEN3",
+  "familyDisplayName": "VAITRIX GEN3",
+  "version": "1.0.0",
+  "chip": "ESP32-S3",
+  "public": true,
+  "flashSize": "16MB",
+  "variants": [
+    {
+      "key": "DIGI",
+      "itemNos": [],
+      "displayName": {
+        "zh": "數位儀表",
+        "en": "DIGI GAUGE"
+      },
+      "appProjectName": "VTX-GEN3-DIGI",
+      "full": {
+        "file": "DIGI/full.bin",
+        "offset": 0,
+        "sha256": "7b36536d6e6b64c7483214bf65c4be256aedb3b24bd6a2461043374d827d428b"
+      },
+      "app": {
+        "file": "DIGI/app.bin",
+        "offset": 65536,
+        "sha256": "0bdce6207f1d609f5860690b270b887271d5c83e09344584686370cc9964e256"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "431cc11c14adfb428e5045275b375355627eb96245a15eceb47b96a8a1ebe932"
+        ],
+        "appPartitionMinSize": 1441792
+      }
+    },
+    {
+      "key": "MY",
+      "itemNos": [],
+      "displayName": {
+        "zh": "袋鼠錶",
+        "en": "MY GAUGE"
+      },
+      "appProjectName": "VTX-GEN3-MY",
+      "full": {
+        "file": "MY/full.bin",
+        "offset": 0,
+        "sha256": "d7590aefa147475c843721ccf13384bfb6213dcb76576d40c3f748a51c0d4079"
+      },
+      "app": {
+        "file": "MY/app.bin",
+        "offset": 65536,
+        "sha256": "200b60deec2ea9d6b0c047bb1ba7287ee8bc56a4d507c2cd96bdd5153c8c5768"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "c68d5f62e67c2edcc4a24e45c1255cae376ed18b475d7721d1e5e4e2bb6f5d5b"
+        ],
+        "appPartitionMinSize": 1638400
+      }
+    }
+  ],
+  "legacyProjectNames": [
+    "VAITRIX_DIGI_GAUGE",
+    "ESP32-S3-Touch-LCD-1.85-Test"
+  ],
+  "releaseNotes": {
+    "zh": [
+      "第一個在 VAITRIX 固件更新中心提供線上更新的版本"
+    ],
+    "en": [
+      "First version available for online updates on the VAITRIX firmware update site"
+    ]
+  }
+}

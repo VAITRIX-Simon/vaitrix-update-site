@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "family": "VTXCPM",
+  "familyDisplayName": "VAITRIX COOL PILOT MANAGER",
+  "version": "1.0.0",
+  "chip": "ESP32-S3",
+  "public": true,
+  "flashSize": "16MB",
+  "variants": [
+    {
+      "key": "CPM",
+      "itemNos": [],
+      "displayName": {
+        "zh": "",
+        "en": ""
+      },
+      "appProjectName": "VTX-CPM",
+      "full": {
+        "file": "CPM/full.bin",
+        "offset": 0,
+        "sha256": "b9dad431b15c31a259cb2e2e2c4de5e825af5f5992421ad6773bebb811098dcd"
+      },
+      "app": {
+        "file": "CPM/app.bin",
+        "offset": 65536,
+        "sha256": "92a85853d85c0222d748e222c44482d7435275f687af8152b9e7d3ff78864e8b"
+      },
+      "requires": {
+        "partitionTableSha256": [
+          "431cc11c14adfb428e5045275b375355627eb96245a15eceb47b96a8a1ebe932"
+        ],
+        "appPartitionMinSize": 851968
+      }
+    }
+  ],
+  "legacyProjectNames": [
+    "ESP32-S3-Touch-LCD-1.85-Test"
+  ],
+  "releaseNotes": {
+    "zh": [
+      "第一個在 VAITRIX 固件更新中心提供線上更新的版本"
+    ],
+    "en": [
+      "First version available for online updates on the VAITRIX firmware update site"
+    ]
+  }
+}
